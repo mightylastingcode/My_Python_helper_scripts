@@ -41,8 +41,7 @@ import time
 import shutil
 import re
 
-# inputfilepath = "/home/michael/esp/esp_idf_v420_projects/projects_for_Vince/vsc_idf420_sense_safe/main/"
-inputfilepath = "/home/michael/esp/esp_idf_v420_projects/projects_for_Vince/vsc_project_dummy_test/main/"
+inputfilepath = "/home/michael/dummy_project/main/"
 tempfilename = "temp.txt"
 
 def init_current_directory(pathname):
@@ -94,15 +93,6 @@ def convert_tab_to_space(infilename, outfilename,num_of_spaces):
 
 
 # Main Code
-
-# space_str = ""
-# for index in range(3):
-#     space_str += " "
-# print(len(space_str))
-# print(f'***{space_str}***')
-
-# while True:
-#     pass
 
 # Initialization
 init_current_directory(inputfilepath)
