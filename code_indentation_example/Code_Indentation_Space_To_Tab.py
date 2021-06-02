@@ -41,8 +41,7 @@ import time
 import shutil
 import re
 
-# inputfilepath = "/home/michael/esp/esp_idf_v420_projects/projects_for_Vince/vsc_idf420_sense_safe/main/"
-inputfilepath = "/home/michael/esp/esp_idf_v420_projects/projects_for_Vince/vsc_project_dummy_test/main/"
+inputfilepath = "/home/michael/dummy_project/main/"
 tempfilename = "temp.txt"
 
 def init_current_directory(pathname):
